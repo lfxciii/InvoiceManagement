@@ -1,0 +1,20 @@
+[
+	{
+		"invoiceItems": [
+			{
+				"itemDescription": "test item",
+				"unitPrice": 10,
+				"quantity": 1,
+				"nettPrice": 200,
+				"vat": 15,
+				"totalAmount": 1000
+			}
+		],
+		"nettPrice": 200,
+		"vat": 15,
+		"totalAmount": 100,
+		"customerId": "1",
+		"userId": "1",
+		"created": "2019/11/11"
+	}
+]

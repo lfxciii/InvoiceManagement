@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test invoice render 1`] = `
+<form
+  className=""
+>
+  <div
+    className="form-group"
+  >
+    <label
+      className="form-label"
+      htmlFor="formBasicEmail"
+    >
+      Email address
+    </label>
+    <input
+      className="form-control"
+      id="formBasicEmail"
+      name="email"
+      onChange={[Function]}
+      placeholder="Enter email"
+      type="email"
+    />
+    <small
+      className="text-muted form-text"
+    >
+      We'll never share your email with anyone else.
+    </small>
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      className="form-label"
+      htmlFor="formBasicPassword"
+    >
+      Password
+    </label>
+    <input
+      className="form-control"
+      id="formBasicPassword"
+      name="password"
+      onChange={[Function]}
+      placeholder="Password"
+      type="password"
+    />
+  </div>
+  <a
+    className="btn btn-success"
+    onClick={[Function]}
+  >
+    Login
+  </a>
+  <a
+    className="btn btn-danger m-2"
+    href="http://localhost:9000/auth/google"
+  >
+    Google Login
+  </a>
+  <a
+    className="btn btn-primary"
+    href="http://localhost:9000/auth/google"
+  >
+    Facebook Login
+  </a>
+</form>
+`;

@@ -1,0 +1,17 @@
+{
+  "name": "invoicemanagement",
+  "version": "1.0.0",
+  "description": ". Frameworks - ReactJs, MongoDB, Mongoose, Express\r . Security - Token authentication int browser cookie\r . Create-react-app used for front end template\r . node-express-mongo used to back end template\r . reactstrap and bootstrap will be used for styling components\r . React application request to Express server using Mongoose to interact with mongodb",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "node invoice_api/server/app.js",
+    "client": "npm start --prefix invoice_spa",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "5.0.0"
+  }
+}
